@@ -9,7 +9,7 @@ version: 2
 name: Pavel Storozhenko
 title: Senior Site Reliability Engineer
 email: storozhenkopf@gmail.com
-website: www.github.com/sproogen/resume-theme
+website: tr3mor.github.io
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -62,6 +62,43 @@ about_content: | # this will include new lines to allow paragraphs
   - CI/CD: GitlabCI, GithubActions, Spinnaker, ArgoCD.
 
 content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Picnic
+        link: picnic.app
+        link_text: picnic.com
+        sub_title: Site Reliability Engineer
+        caption: August 2022 - Present
+        description: | # this will include new lines to allow paragraphs
+          Focused on enhancing the company's observability infrastructure, I specialize in delivering Observability-as-a-Service to developers.
+          Proficient in Prometheus, Grafana, Datadog, and automation, I manage these systems on AWS in K8s.
+      - layout: left
+        title: Tinkoff Bank
+        link: tinkoff.ru
+        link_text: tinkoff.ru
+        sub_title: Site Reliability Engineer
+        caption: June 2021 - July 2022
+        description: | # this will include new lines to allow paragraphs
+          Led the development of an Internal Developers Platform for company-wide use, overseeing the design of monitoring, logging, and tracing requirements. 
+          Implemented Observability as a Service using Prometheus, Grafana, Jaeger, and the ELK stack. Utilized K8s as the primary runtime platform, ensuring the deployment of production-critical workloads adhered to best practices for high availability.
+      - layout: left
+        title: DINS
+        sub_title: SysOPS/Site Reliability Engineer
+        caption: December 2016 - June 2021
+        description: | # this will include new lines to allow paragraphs
+          Enhancing a platform with 300+ microservices, I've contributed to achieving a target availability of 99.99%. 
+          Led the planning and execution of a seamless migration from on-premises to AWS, ensuring zero downtime.
+      - layout: left
+        title: Tikkurila
+        sub_title: Tech Analyst
+        caption: December 2015 - December 2016
+      - layout: left
+        title: TTK
+        sub_title: Technical Support Specialist
+        caption: October 2014 - December 2015
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -94,7 +131,7 @@ content:
         #          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         #        quote: >
         description: | # this will include new lines to allow paragraphs
-          Simple Go application which can mock any HTTP response. Useful for Ingress rule torubleshooting.
+          Simple Go application which can mock any HTTP response. Useful for Ingress rule troubleshooting.
 
       - layout: top-middle
         title: Prober
@@ -111,41 +148,13 @@ content:
         description: | # this will include new lines to allow paragraphs
           Simple prober codebase which could be easily extended with any custom probe. Could be used when blackbox-exporter functionality is not enough.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Picnic
-        link: picnic.app
-        link_text: picnic.com
-        sub_title: Site Reliability Engineer
-        caption: August 2022 - Present
-        description: | # this will include new lines to allow paragraphs
-            Mainly working on observability stack in the company and providing observability as a service for developers.
-            Stack: Prometheus, Grafana, Datadog, multiple exporters and automations. Running it on AWS in K8s.
-      - layout: left
-        title: Tinkoff Bank
-        link: tinkoff.ru
-        link_text: tinkoff.ru
-        sub_title: Site Reliability Engineer
-        caption: June 2021 - July 2022
-        description: | # this will include new lines to allow paragraphs
-          I was working on Internal Developers Platform for everyone in the company, which included designing requirements for monitoring, logging, and tracing. Implementing Observability as Service using Prometheus, Grafana, Jaeger, ELK stack.
-          Using K8s as main runtime platform for the system: running production critical workload on the K8S platform using best practices for high availability.
-
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+        title: Southern Federal University, Rostov-on-Don, Russia
+        caption: 2008 - 2013
+        sub_title: Specialist Degree in High Technologies
 
   - title: A Little More About Me
     layout: text
