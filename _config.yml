@@ -94,10 +94,16 @@ content:
         title: Tikkurila
         sub_title: Tech Analyst
         caption: December 2015 - December 2016
+        description: |
+          Designing and implementing network infrastructure changes, ensuring up-to-date documentation.Contributed to S4B online migration, managed servers (WS 2012 R2, 2008 R2), and orchestrated Hyper-V deployment. 
+          Automated daily tasks with Python, PowerShell, and scripted for 1st line support. Led internal system migration to MS Azure.
       - layout: left
         title: TTK
         sub_title: Technical Support Specialist
         caption: October 2014 - December 2015
+        description: |
+          Managed workstation administration (Windows XP, 7, 8.1) and servers (WS2008, 2012 R2).
+          Configured CISCO L2/L3 access switches and routers (ACL, NAT, SubIF). Provided remote support for 300+ users (Help Desk 1+2 line). 
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -155,7 +161,8 @@ content:
         title: Southern Federal University, Rostov-on-Don, Russia
         caption: 2008 - 2013
         sub_title: Specialist Degree in High Technologies
-
+        description: |
+          Field of professional activity of the graduate: lifecycle management of high-tech products; quality management of the management system of a high-tech enterprise; development and implementation of lifecycle management technologies for high-tech products.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
