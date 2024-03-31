@@ -30,10 +30,10 @@ linkedin_username: pavel-storozhenko-94474915a
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
+additional_links:
+- title: CV
+  icon: fas fa-globe
+  url: https://drive.google.com/file/d/1eI_p1MamM78-ixPA6qaizNm0jKes9Duy/view?usp=share_link
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -72,8 +72,10 @@ content:
         sub_title: Site Reliability Engineer
         caption: August 2022 - Present
         description: | # this will include new lines to allow paragraphs
-          Focused on enhancing the company's observability infrastructure, I specialize in delivering Observability-as-a-Service to developers.
-          Proficient in Prometheus, Grafana, Datadog, and automation, I manage these systems on AWS in K8s.
+          Dedicated to bolstering the company's observability infrastructure, I specialize in providing Observability-as-a-Service solutions tailored to developers' needs.
+          Led the successful migration initiative from NewRelic to a combination of Datadog and OpenTelemetry (OTEL), resulting in enhanced visibility into our automated warehouse operations while significantly reducing cost. You may read about this project in [this](https://picnic.app/careers/picnics-migration-to-datadog-pavel-storozhenko) blog post.
+          Revamped the centralized log collection system to enhance stability and flexibility of log collection pipelines, leading to substantial savings in compute resources across EKS clusters.
+          As an SRE, I've spearheaded numerous projects aimed at optimizing AWS resources, streamlining Kubernetes orchestration, and implementing Infrastructure as Code practices using Terraform.
       - layout: left
         title: Tinkoff Bank
         link: tinkoff.ru
@@ -166,14 +168,11 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
+      Alongside my interests in tech some of my other interests and hobbies are:
       - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Mechanical keyboards
+      - Football
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
